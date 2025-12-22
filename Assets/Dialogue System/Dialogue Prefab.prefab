@@ -30,7 +30,6 @@ RectTransform:
   m_Children:
   - {fileID: 7796836357754831508}
   - {fileID: 3768422070455787866}
-  - {fileID: 1983546642964681211}
   m_Father: {fileID: 6121698930741848182}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
@@ -146,11 +145,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8466933848744782619}
-  m_Father: {fileID: 6242052837598375236}
+  m_Father: {fileID: 3768422070455787866}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 598, y: -416}
+  m_AnchoredPosition: {x: 598, y: -75}
   m_SizeDelta: {x: 200, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1768744433093352551
@@ -576,12 +575,13 @@ MonoBehaviour:
   continueImage: {fileID: 3099984433280997799}
   scrollText: 1
   typeSpeed: 0.01
-  onDialogueBegan:
-    m_PersistentCalls:
-      m_Calls: []
-  onDialogueEnded:
-    m_PersistentCalls:
-      m_Calls: []
+  dialogueEvents:
+    onDialogueBegan:
+      m_PersistentCalls:
+        m_Calls: []
+    onDialogueEnded:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &6264193383088170691
 GameObject:
   m_ObjectHideFlags: 0
@@ -614,6 +614,7 @@ RectTransform:
   m_Children:
   - {fileID: 2049873300877519208}
   - {fileID: 1859309371140741392}
+  - {fileID: 1983546642964681211}
   m_Father: {fileID: 6242052837598375236}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}

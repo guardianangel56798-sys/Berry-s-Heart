@@ -1,0 +1,6 @@
+[NAME=Berry][SPEAKERSPRITE=Player] Sirius?!
+[NAME=Sirius][SPEAKERSPRITE=NPC] Berry...
+[NAME=Berry][SPEAKERSPRITE=Player] What are you doing down here?
+[NAME=Sirius][SPEAKERSPRITE=NPC] ...I wanted to aid you on your journey, so I stayed behind while the others rushed away.
+[NAME=Berry][SPEAKERSPRITE=Player] Thank you.
+[NAME=Berry][SPEAKERSPRITE=Player] ...Take care, Sirius.
