@@ -1432,7 +1432,7 @@ MonoBehaviour:
   layoutGroup: {fileID: 1488387279}
   inventoryRectSize: {x: 100, y: 100}
   maxItems: 10
-  autoPickUpItems: 0
+  autoPickUpItems: 1
   persistentInventory: 0
   onItemPickedUp:
     m_PersistentCalls:
@@ -2837,7 +2837,7 @@ Transform:
   m_GameObject: {fileID: 1825848364}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.38, y: -1.18, z: 0}
+  m_LocalPosition: {x: 3.89, y: -1.29, z: 0}
   m_LocalScale: {x: 0.85858, y: 0.85858, z: 0.85858}
   m_ConstrainProportionsScale: 0
   m_Children: []
